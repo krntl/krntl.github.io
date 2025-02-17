@@ -1,5 +1,5 @@
 * {
-  box-sizing: bo;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -68,4 +68,11 @@ body .info {
   padding: 5px 10px;
   line-height: 1.15;
   display: block;
+}
+body .info h3 {
+  margin: 5pt 0;
+  font-size: 146x;
+  font-weight: 300;
+  border-bottom: 0.5px solid white;
+  padding: 2px;
 }
