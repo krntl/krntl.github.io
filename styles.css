@@ -1,6 +1,68 @@
+* {
+  box-sizing: bo;
+}
 body {
-  background-color: rgba(25, 25, 25);
-  color: white;
   font-family: 'Open Sans', sans-serif;
-  margin: 10px 10px;
+  background: url('bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-weight: 100;
+  min-width: 400px;
+}
+body strong {
+  font-weight: 500;
+}
+body code {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2px 5px;
+  margin: 10px 0;
+}
+body .content {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  font-size: 10pt;
+  width: 400px;
+  margin: 10pt;
+}
+body .content .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+body .content .title .pfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: rgba(255, 255, 255, 0.2) 2px solid;
+}
+body .content .title .text-container {
+  display: flex;
+  flex-direction: column;
+}
+body .content .title .text-container h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+body .content .title .text-container h2 {
+  margin: 0;
+  font-size: 14px;
+  color: lightgray;
+  font-weight: 100;
+  line-height: 0.8;
+}
+body .info {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 5px 10px;
+  line-height: 1;
+  display: block;
 }
