@@ -32,6 +32,7 @@ body .content {
   font-size: 10pt;
   width: 400px;
   margin: 10pt;
+  line-height: 1;
 }
 body .content .title {
   display: flex;
@@ -65,6 +66,6 @@ body .info {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   padding: 5px 10px;
-  line-height: 1;
+  line-height: 1.15;
   display: block;
 }
